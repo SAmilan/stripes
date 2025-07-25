@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: 7ba598b22d67e3449af1dc11472913b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7345376988496186035
+    second: Ending-Tile-Sprite-02-East-V2_0
+  - first:
+      213: 6129169953201991952
+    second: Ending-Tile-Sprite-02-East-V2_1
+  - first:
+      213: 4058489355822772414
+    second: Ending-Tile-Sprite-02-East-V2_2
+  - first:
+      213: -7489063877643975379
+    second: Ending-Tile-Sprite-02-East-V2_3
+  - first:
+      213: 8825945415114368691
+    second: Ending-Tile-Sprite-02-East-V2_4
+  - first:
+      213: 4092673839538839179
+    second: Ending-Tile-Sprite-02-East-V2_5
+  - first:
+      213: 3382576270592057194
+    second: Ending-Tile-Sprite-02-East-V2_6
+  - first:
+      213: -8017477418257385785
+    second: Ending-Tile-Sprite-02-East-V2_7
+  - first:
+      213: 2637213325836993163
+    second: Ending-Tile-Sprite-02-East-V2_8
+  - first:
+      213: -6708862003042893746
+    second: Ending-Tile-Sprite-02-East-V2_9
+  - first:
+      213: 2740512354144402083
+    second: Ending-Tile-Sprite-02-East-V2_10
+  - first:
+      213: -3917964594857885030
+    second: Ending-Tile-Sprite-02-East-V2_11
+  - first:
+      213: -2368143723585068295
+    second: Ending-Tile-Sprite-02-East-V2_12
+  - first:
+      213: 4027830604787191611
+    second: Ending-Tile-Sprite-02-East-V2_13
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_0
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1758
+        width: 14
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d453b53eb8aff0a90800000000000000
+      internalID: -7345376988496186035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_1
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1754
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0113a94499f2f0550800000000000000
+      internalID: 6129169953201991952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_2
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1753
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0358af096a25830800000000000000
+      internalID: 4058489355822772414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1222
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2542d00510811890800000000000000
+      internalID: -7489063877643975379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1206
+        width: 152
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b621ead79e0c7a70800000000000000
+      internalID: 8825945415114368691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_5
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1171
+        width: 203
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e1f335c291cc830800000000000000
+      internalID: 4092673839538839179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_6
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1159
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1e4a423351fe20800000000000000
+      internalID: 3382576270592057194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 647
+        width: 241
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c67d0a34c23cb090800000000000000
+      internalID: -8017477418257385785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_8
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 634
+        width: 240
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82c07b1c83499420800000000000000
+      internalID: 2637213325836993163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_9
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 634
+        width: 240
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e404385ad8555e2a0800000000000000
+      internalID: -6708862003042893746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_10
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 634
+        width: 240
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aab85b5771480620800000000000000
+      internalID: 2740512354144402083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 122
+        width: 240
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9240f095f790a9c0800000000000000
+      internalID: -3917964594857885030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 122
+        width: 240
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f224a294d9a22fd0800000000000000
+      internalID: -2368143723585068295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ending-Tile-Sprite-02-East-V2_13
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 122
+        width: 240
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f89cd389ab5e730800000000000000
+      internalID: 4027830604787191611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ending-Tile-Sprite-02-East-V2_0: -7345376988496186035
+      Ending-Tile-Sprite-02-East-V2_1: 6129169953201991952
+      Ending-Tile-Sprite-02-East-V2_10: 2740512354144402083
+      Ending-Tile-Sprite-02-East-V2_11: -3917964594857885030
+      Ending-Tile-Sprite-02-East-V2_12: -2368143723585068295
+      Ending-Tile-Sprite-02-East-V2_13: 4027830604787191611
+      Ending-Tile-Sprite-02-East-V2_2: 4058489355822772414
+      Ending-Tile-Sprite-02-East-V2_3: -7489063877643975379
+      Ending-Tile-Sprite-02-East-V2_4: 8825945415114368691
+      Ending-Tile-Sprite-02-East-V2_5: 4092673839538839179
+      Ending-Tile-Sprite-02-East-V2_6: 3382576270592057194
+      Ending-Tile-Sprite-02-East-V2_7: -8017477418257385785
+      Ending-Tile-Sprite-02-East-V2_8: 2637213325836993163
+      Ending-Tile-Sprite-02-East-V2_9: -6708862003042893746
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

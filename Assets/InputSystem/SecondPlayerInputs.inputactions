@@ -1,0 +1,1113 @@
+{
+    "name": "SecondPlayerInputs",
+    "maps": [
+        {
+            "name": "TwoPlayers",
+            "id": "0d37e71b-fe52-47c6-b1ef-0d784987106d",
+            "actions": [
+                {
+                    "name": "UpcomingActionsPlayer1",
+                    "type": "Value",
+                    "id": "c64c04fd-a0cd-43ba-a0ee-743d108d1634",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UpcomingActionsPlayer1Gamepads",
+                    "type": "Value",
+                    "id": "0d01661c-302b-4e2a-be5c-08f15ae5cb26",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PieceMovementPlayer1",
+                    "type": "Value",
+                    "id": "b6118e52-541a-46bd-97d1-f5aff50d3125",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PieceMovementPlayer1Dpads",
+                    "type": "Value",
+                    "id": "7d56dfc0-88f0-43d0-b4d7-7641abd4fd3b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PlacePiecePlayer1",
+                    "type": "Button",
+                    "id": "06da5c48-f095-45e3-8bac-db90410abed4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PlacePiecePlayer1Gamepads",
+                    "type": "Button",
+                    "id": "bbcbea33-04b8-432d-a7a9-e6bde7ecbb66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RotatePieceClockwisePlayer1",
+                    "type": "Button",
+                    "id": "2beca06c-4265-48da-b741-6c6fc631e149",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotatePieceClockwisePlayer1Gamepad",
+                    "type": "Button",
+                    "id": "3c29b08e-8802-4eb9-8316-17b715c213bc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotatePieceAntiClockwisePlayer1",
+                    "type": "Button",
+                    "id": "b32c3ddb-b158-4a20-8b20-2814a929f061",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotatePieceAntiClockwisePlayer1Gamepads",
+                    "type": "Button",
+                    "id": "cb12cdaf-1d61-4a84-a29f-6dac1dfb7523",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UpcomingActionsPlayer2",
+                    "type": "Value",
+                    "id": "c2ecd3bd-e090-4c49-9bd3-23ed46e74333",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UpcomingActionsPlayer2Gamepads",
+                    "type": "Value",
+                    "id": "543d988a-ab8d-45cb-a41b-19e5467e73ee",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PieceMovementPlayer2",
+                    "type": "Value",
+                    "id": "e37e56ca-ef11-4177-a5d1-facc7f21b4b9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PieceMovementPlayer2Gamepad",
+                    "type": "Value",
+                    "id": "7cc3dcd8-e452-46f6-ade5-ce6a23aa611c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PlacePiecePlayer2",
+                    "type": "Button",
+                    "id": "3b51708d-e431-494a-b46d-7f86ea6df29a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PlacePiecePlayer2Gamepads",
+                    "type": "Button",
+                    "id": "8e787574-c6e9-4678-a2e1-797ccd640fc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "QuitButton",
+                    "type": "Button",
+                    "id": "57845b74-f5bb-476f-95d3-7c73bc65a950",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PauseButton",
+                    "type": "Button",
+                    "id": "b5a79481-46ab-4951-926f-3cbfe701be44",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RotatePieceClockwisePlayer2",
+                    "type": "Button",
+                    "id": "78753801-fa19-4302-8423-c1128e451554",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotatePieceClockwisePlayer2Gamepads",
+                    "type": "Button",
+                    "id": "b9a4ad36-b566-4b08-90ee-aebb9fe0445f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotatePieceAntiClockwisePlayer2",
+                    "type": "Button",
+                    "id": "be38257c-28cd-487c-ab87-1040c317dfa8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotatePieceAntiClockwisePlayer2Gamepads",
+                    "type": "Button",
+                    "id": "996fde78-08c6-43ac-9a76-673ffc558eb8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftStickTriggered",
+                    "type": "Button",
+                    "id": "6533a817-8921-49ba-962a-8ea1bab71312",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "leftStickTriggeredPlayer1",
+                    "type": "Button",
+                    "id": "a951fbc1-e8e4-4439-a287-f9d28b404793",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftStickUPPressed",
+                    "type": "Button",
+                    "id": "85872c92-2704-4fe2-b7ee-b9408f117c73",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftStickDownPressed",
+                    "type": "Button",
+                    "id": "9f6283cb-2d55-48d8-adbe-4a91f81dabf4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftStickLeftPressed",
+                    "type": "Button",
+                    "id": "42a6f337-b7e8-4bd7-a9db-b347551ab779",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftStickRightPressed",
+                    "type": "Button",
+                    "id": "a1eae327-9561-4f63-8e07-c8e6c2255efb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "ArrowKeys",
+                    "id": "204ea856-01a0-4b12-b1f1-74613c6e3cd2",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "178b68ee-f8f4-4471-835f-dce10857faf9",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "95823446-5a49-419c-8ad7-192ab7a49a99",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "6ea9abd8-5403-4491-b52b-f7d67a5225fc",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "5ec0290e-6b0d-4851-a307-2497fc746317",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "989200bd-d3c0-4399-989d-eed244d64df1",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlacePiecePlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1e5213f-c0c0-40c3-b26a-32ba248c4e99",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlacePiecePlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac58c724-52ec-4fb3-b3cd-1fa8bbe6688a",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceClockwisePlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "305cc855-d18f-4d7b-bb8d-e8fc25e4fbf7",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceAntiClockwisePlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "db62795e-94be-4926-a999-f6bb8f82d3ce",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "d4e30f15-5a22-4e63-899e-481ab13a7f8e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "d09be371-768c-4de4-aa80-15c0c54743c4",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "de5750a7-0dcd-495b-b61c-4e7fe4bc975f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "6f78a913-3707-4a94-8bba-032636b43c20",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "WASD",
+                    "id": "b87a729b-bc5a-4bbd-8185-60921ebd9079",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "05139294-6e08-4f52-8400-ebd29698c168",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "c779d6c5-4c0a-4200-80c7-e3c3b2233b77",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "8c2487b6-f292-4140-a00d-8bf37670f411",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "18cefb8a-0b38-4315-9fc3-924f84ca529e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ac8410fe-c616-4658-9e82-87d85347b46a",
+                    "path": "<Keyboard>/pageDown",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlacePiecePlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e83b6bc9-9f79-4b78-9eb3-10761001f115",
+                    "path": "<Keyboard>/delete",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceClockwisePlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b2b673e-9344-4b3b-906f-ee3ba1cdeefb",
+                    "path": "<Keyboard>/end",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceAntiClockwisePlayer2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4b3c836-645a-4820-8de7-52796eb64d70",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStickUPPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d5b85d2-a146-4e1c-bc5f-349763c49758",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStickDownPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "420790dc-c62c-4d35-a94f-aa78d9635174",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStickLeftPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1a78c7d-b193-4d3d-b796-52881026f2bf",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStickRightPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1ca585b-199d-4a97-aca9-f226d6e4afe7",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStickTriggered",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdd485f7-50ac-4d4b-9902-1d026ad0dd30",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QuitButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "970f4342-7dbf-4bf4-bfbc-525ea48a24f1",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QuitButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6d7e760-f87f-4063-8f89-81d94f38e202",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c3258396-7771-4c34-ad40-5be61ba830b3",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "ArrowKeys",
+                    "id": "c831e6f6-3adc-409d-bda3-c4d4fcced347",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "bfdbd78f-08a6-4ac1-ae4f-53c0da3aa824",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "3d7d3418-be89-42a1-a674-4b0be4b864a2",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "8cde6e2f-2ef8-4850-9c59-d3e6721dc92a",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "bc37a885-3adb-479e-af8d-d8c06fc5ab20",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "adbd4230-e948-403b-a591-76ed10c0a2e0",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftStickTriggeredPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Dpads",
+                    "id": "a792f202-9018-4592-835f-5b56a537beb0",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1Dpads",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "185000e8-385a-4f98-940d-0fa5ff519b09",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1Dpads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "a6f0d47e-bc9f-4f19-9642-06a8eae07109",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1Dpads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "4c1b3826-4689-4e3c-a34a-c3a0c961dee8",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1Dpads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "b902dd03-f043-467c-a2c0-c9bbd47498a6",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer1Dpads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "DPads",
+                    "id": "988207c7-6dfc-46a2-b69b-5bb4875e1d23",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2Gamepad",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "ee470a00-757f-4390-95b2-1a4fc70375b1",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2Gamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "c73f9c3b-fb9b-490c-8cbc-c63d31a3a517",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2Gamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "c1f437a0-ec6c-41ca-ac07-20e48b2bd26c",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2Gamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "7dff5ed0-95e6-471b-bafd-77fb0f92a7af",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PieceMovementPlayer2Gamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Dpad",
+                    "id": "98d41004-cf59-4ce4-b576-d279b9e1cf99",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "8557dec4-5df4-4d66-8ddd-02f192863e37",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "4b544962-afc4-4f04-8edb-98f64f0c1e48",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "0192afe6-7c1e-47f9-a8d6-1573b8b31320",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "7e977347-3f7e-4187-9559-61d09bb628f6",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "LeftStick",
+                    "id": "6344dd6d-969c-46c9-8ab9-3e73ff06926d",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "9923541e-92d1-45fa-8920-c179a4a9f2cf",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "baae2309-2761-4470-b4dd-0e97851f331f",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "c21c2ff2-da63-4151-a2b8-494b9c9ad4a9",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "1fb39ab4-f4ab-4ac3-a707-625e2a77826d",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "DPads",
+                    "id": "5a29d948-6341-477d-a5af-71a9c7657b05",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "a149577d-3486-4ee0-a7b7-5537288b7896",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "6a891137-0b73-4c73-b387-9af8652e5832",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "ba5a5deb-bbcf-4ae8-859d-622b3874663b",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "f531eba3-edd5-42a8-a9ab-d26707d4422d",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "LeftStick",
+                    "id": "f48f7c2a-81e0-4329-82f9-ed12569040ee",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "abf9e4d9-b3ec-4180-a4fa-3dd4d72c1e69",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6084c216-b259-4d12-be9f-34363cd3620b",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "041252a2-df12-4463-92c9-b3f57a882338",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "be154d69-10eb-40ff-9efe-b1161c18a2a9",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpcomingActionsPlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d3894f88-7913-468d-bb30-f3b5882c9036",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlacePiecePlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f6e4356-b58b-4f02-93bd-06add6a630a5",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlacePiecePlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc89fa1f-91fa-49dc-b762-44f1ca9c5c33",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceClockwisePlayer1Gamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fbd892d-1cd4-4424-b7af-545ea127aa43",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceClockwisePlayer1Gamepad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "527d2ace-66dd-44d2-be80-3af46e19d744",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceAntiClockwisePlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e634121-ca5f-4994-af00-209306375630",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceAntiClockwisePlayer1Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "825bb0ad-86d3-4e02-87e6-7fda63ec71c8",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceClockwisePlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a5a75a1-056b-4737-8fad-dbbdfd81c0ea",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceClockwisePlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70da27fa-43c1-44b6-8e26-304713072afe",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceAntiClockwisePlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "506fe242-0dcf-4569-87dc-036b1816c56a",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotatePieceAntiClockwisePlayer2Gamepads",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

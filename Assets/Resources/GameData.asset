@@ -1,0 +1,699 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2f6ceee59d83542a4bc7af872884ab, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  StartingPieceLength:
+  - SideLength: 4
+    Normal: 1
+    Few: 1
+    Many: 1
+  - SideLength: 5
+    Normal: 1
+    Few: 1
+    Many: 2
+  - SideLength: 6
+    Normal: 1
+    Few: 1
+    Many: 2
+  - SideLength: 7
+    Normal: 2
+    Few: 1
+    Many: 2
+  - SideLength: 8
+    Normal: 2
+    Few: 1
+    Many: 3
+  - SideLength: 9
+    Normal: 2
+    Few: 1
+    Many: 3
+  - SideLength: 10
+    Normal: 3
+    Few: 2
+    Many: 4
+  - SideLength: 11
+    Normal: 3
+    Few: 2
+    Many: 4
+  - SideLength: 12
+    Normal: 3
+    Few: 2
+    Many: 4
+  StartingPiecesIndex:
+  - StartingPieceIndex: 0
+    StartingPieceCounters: 3c00000041000000460000004b00000050000000550000005a000000
+  - StartingPieceIndex: 1
+    StartingPieceCounters: 64000000690000006e00000073000000780000007d00000082000000
+  - StartingPieceIndex: 2
+    StartingPieceCounters: 8c00000091000000960000009b000000a0000000a5000000aa000000
+  - StartingPieceIndex: 3
+    StartingPieceCounters: af000000b4000000b9000000be000000c3000000c8000000cd000000
+  Obstacle:
+  - ObstacleType: 0
+    ObstaclesPieces:
+    - {fileID: 21300000, guid: 4f33fd57ce88a7946a26501e47a0d82d, type: 3}
+    ObstaclePiecePosition: []
+  - ObstacleType: 1
+    ObstaclesPieces:
+    - {fileID: 21300000, guid: 5208edb9bc0cc654898d6e659d5bc6c6, type: 3}
+    - {fileID: 21300000, guid: c15328e51e6829147b76abb91d615c39, type: 3}
+    ObstaclePiecePosition:
+    - {x: 1, y: 0}
+  - ObstacleType: 2
+    ObstaclesPieces:
+    - {fileID: 21300000, guid: 60fac0e0fc0b41f44b960bdf4b11d52c, type: 3}
+    - {fileID: 21300000, guid: abf54adf68e22c045a473fca68c6c4b4, type: 3}
+    - {fileID: 21300000, guid: 5dcc81bf242336d48af371cc33545988, type: 3}
+    ObstaclePiecePosition:
+    - {x: 0, y: -1}
+    - {x: 0, y: -2}
+  StartingPieceSurroundingVectors:
+  - {x: 0, y: 1}
+  - {x: 0, y: -1}
+  - {x: 1, y: 0}
+  - {x: -1, y: 0}
+  ObstacleCountsValues:
+  - SideLength: 4
+    RoundObstacleCount: 02000000010000000300000000000000
+    HorizontalObstacleCount: 00000000000000000000000000000000
+    VerticalObstacleCount: 00000000000000000000000000000000
+  - SideLength: 5
+    RoundObstacleCount: 03000000020000000400000000000000
+    HorizontalObstacleCount: 01000000000000000200000000000000
+    VerticalObstacleCount: 00000000000000000000000000000000
+  - SideLength: 6
+    RoundObstacleCount: 03000000030000000400000000000000
+    HorizontalObstacleCount: 02000000010000000200000000000000
+    VerticalObstacleCount: 00000000000000000000000000000000
+  - SideLength: 7
+    RoundObstacleCount: 03000000020000000400000000000000
+    HorizontalObstacleCount: 02000000010000000300000000000000
+    VerticalObstacleCount: 00000000000000000000000000000000
+  - SideLength: 8
+    RoundObstacleCount: 03000000020000000500000000000000
+    HorizontalObstacleCount: 03000000010000000300000000000000
+    VerticalObstacleCount: 00000000000000000000000000000000
+  - SideLength: 9
+    RoundObstacleCount: 03000000030000000500000000000000
+    HorizontalObstacleCount: 03000000010000000300000000000000
+    VerticalObstacleCount: 00000000000000000000000000000000
+  - SideLength: 10
+    RoundObstacleCount: 04000000040000000500000000000000
+    HorizontalObstacleCount: 03000000020000000300000000000000
+    VerticalObstacleCount: 01000000000000000200000000000000
+  - SideLength: 11
+    RoundObstacleCount: 04000000030000000500000000000000
+    HorizontalObstacleCount: 03000000010000000300000000000000
+    VerticalObstacleCount: 02000000010000000300000000000000
+  - SideLength: 12
+    RoundObstacleCount: 03000000020000000500000000000000
+    HorizontalObstacleCount: 02000000020000000300000000000000
+    VerticalObstacleCount: 01000000000000000200000000000000
+  StartingPieceFlowVectors:
+  - Angle: 0
+    flowVector: {x: 0, y: 1}
+  - Angle: 90
+    flowVector: {x: 1, y: 0}
+  - Angle: 180
+    flowVector: {x: 0, y: -1}
+  - Angle: 270
+    flowVector: {x: -1, y: 0}
+  TestValue: 10
+  LEFTSTICKUPVECTOR: {x: 0, y: 1}
+  LEFTSTICKDOWNVECTOR: {x: 0, y: -1}
+  LEFTSTICKLEFTVECTOR: {x: -1, y: 0}
+  LEFTSTICKRIGHTVECTOR: {x: 1, y: 0}
+  GameOptions:
+    SinglePlayerGameRows: 8
+    SinglePlayerGameColumns: 8
+    TwoPlayerGameRows: 8
+    TwoPlayerGameColumn: 8
+    ObstacleCoverage: 20
+    ShowOptionStatus: 1
+    FlowSpeed: 0.2
+    CompundSpeed: 
+    DisplayHighScore: 1
+    LengthPoints: 100
+    CrossPoints: 500
+    ClosedLoopPoints: 500
+    TileReplacementPenalty: -100
+    UnusedTilePenalty: -99
+    StartingPieceTimer: 60
+    MultiplayerLoopCompleted: 8
+    RowColumnIncreaseRate: 0
+    BombProbability: normal
+    UpcomingTileStatus: 1
+    StartingPieceTimeDifference: 10
+    DifficultyStartingPieceTimeReduction: 20
+    MinimumStartingTimer: 3
+    DifficultFlowSpeed: 0.1
+    AuxillaryTimer: 20
+  ThrownObstacles:
+  - MinLoopLength: 4
+    MaxLoopLength: 8
+    ObstaceleCount: 1
+  - MinLoopLength: 9
+    MaxLoopLength: 15
+    ObstaceleCount: 2
+  - MinLoopLength: 16
+    MaxLoopLength: 24
+    ObstaceleCount: 4
+  - MinLoopLength: 25
+    MaxLoopLength: 35
+    ObstaceleCount: 8
+  - MinLoopLength: 36
+    MaxLoopLength: 48
+    ObstaceleCount: 16
+  - MinLoopLength: 49
+    MaxLoopLength: 63
+    ObstaceleCount: 32
+  - MinLoopLength: 64
+    MaxLoopLength: 80
+    ObstaceleCount: 64
+  - MinLoopLength: 81
+    MaxLoopLength: 99
+    ObstaceleCount: 128
+  - MinLoopLength: 100
+    MaxLoopLength: 100
+    ObstaceleCount: 144
+  StartingPieceAnglesVariations:
+  - Angle: 0
+    StartingPieceSprite: {fileID: 21300000, guid: 4bd23826e85b72047ba35f7828878a47, type: 3}
+  - Angle: 90
+    StartingPieceSprite: {fileID: 21300000, guid: 91b99977531c5ab408adb516ee50e9af, type: 3}
+  - Angle: 180
+    StartingPieceSprite: {fileID: 21300000, guid: be9717ec366eb7840a097cd6742fa749, type: 3}
+  - Angle: 270
+    StartingPieceSprite: {fileID: 21300000, guid: 113b74e700dd2b44ea1dcc6b3a0e3903, type: 3}
+  StartingPieceSafeAreaVectors:
+  - {x: -1, y: -1}
+  - {x: 0, y: -1}
+  - {x: 1, y: -1}
+  - {x: -1, y: 0}
+  - {x: 1, y: 0}
+  - {x: -1, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  FillImages:
+  - Type: 0
+    fillImages: {fileID: 21300000, guid: 57f5b504c80a45449bafe44080c16c5f, type: 3}
+  - Type: 1
+    fillImages: {fileID: 21300000, guid: 2ea5f40ff8329b74c9b95e73eeb714a8, type: 3}
+  - Type: 2
+    fillImages: {fileID: 21300000, guid: 0cb9fd1e44285a24cac14112dded45a2, type: 3}
+  - Type: 3
+    fillImages: {fileID: 21300000, guid: 0cb9fd1e44285a24cac14112dded45a2, type: 3}
+  - Type: 4
+    fillImages: {fileID: 21300000, guid: 850f9854039c2c143885309faa33c178, type: 3}
+  - Type: 5
+    fillImages: {fileID: 21300000, guid: 26ca9b6e8aaba3a4790ec9f8d6bc43b4, type: 3}
+  FlowTypeAnimation:
+  - Type: 0
+    FlowAnimationAngle:
+    - Angle: 0
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+    - Angle: 90
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+    - Angle: 180
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+    - Angle: 270
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 1
+        Clockwise: 1
+  - Type: 1
+    FlowAnimationAngle:
+    - Angle: 0
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+    - Angle: 90
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+    - Angle: 180
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+    - Angle: 270
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 2
+        fillOrigin: 3
+        Clockwise: 1
+  - Type: 2
+    FlowAnimationAngle:
+    - Angle: 0
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 0
+    - Angle: 90
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 1
+    - Angle: 180
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 0
+    - Angle: 270
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 1
+  - Type: 4
+    FlowAnimationAngle:
+    - Angle: 0
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+    - Angle: 90
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 0
+        fillOrigin: 0
+        Clockwise: 1
+    - Angle: 180
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+    - Angle: 270
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 0
+        fillOrigin: 1
+        Clockwise: 1
+  - Type: 5
+    FlowAnimationAngle:
+    - Angle: 0
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+    - Angle: 90
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 1
+    - Angle: 180
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 0
+    - Angle: 270
+      FlowAnimationFlowVector:
+      - FlowVector: {x: 0, y: 1}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 0
+      - FlowVector: {x: 0, y: -1}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 0
+      - FlowVector: {x: 1, y: 0}
+        fillMethod: 1
+        fillOrigin: 0
+        Clockwise: 1
+      - FlowVector: {x: -1, y: 0}
+        fillMethod: 1
+        fillOrigin: 1
+        Clockwise: 1
+  CrossTypeAnimation:
+  - CrossTypeAngle: 0
+    FlowAnimationAngle:
+    - FlowVector: {x: 1, y: 0}
+      Angle: 0
+      fillMethod: 0
+      fillOrigin: 0
+    - FlowVector: {x: -1, y: 0}
+      Angle: 0
+      fillMethod: 0
+      fillOrigin: 1
+    - FlowVector: {x: 0, y: 1}
+      Angle: 270
+      fillMethod: 0
+      fillOrigin: 1
+    - FlowVector: {x: 0, y: -1}
+      Angle: 270
+      fillMethod: 0
+      fillOrigin: 0
+  - CrossTypeAngle: 90
+    FlowAnimationAngle:
+    - FlowVector: {x: 1, y: 0}
+      Angle: 0
+      fillMethod: 0
+      fillOrigin: 0
+    - FlowVector: {x: -1, y: 0}
+      Angle: 0
+      fillMethod: 0
+      fillOrigin: 1
+    - FlowVector: {x: 0, y: 1}
+      Angle: 90
+      fillMethod: 0
+      fillOrigin: 0
+    - FlowVector: {x: 0, y: -1}
+      Angle: 90
+      fillMethod: 0
+      fillOrigin: 1
+  - CrossTypeAngle: 180
+    FlowAnimationAngle:
+    - FlowVector: {x: 1, y: 0}
+      Angle: 180
+      fillMethod: 0
+      fillOrigin: 1
+    - FlowVector: {x: -1, y: 0}
+      Angle: 180
+      fillMethod: 0
+      fillOrigin: 0
+    - FlowVector: {x: 0, y: 1}
+      Angle: 90
+      fillMethod: 0
+      fillOrigin: 0
+    - FlowVector: {x: 0, y: -1}
+      Angle: 90
+      fillMethod: 0
+      fillOrigin: 1
+  - CrossTypeAngle: 270
+    FlowAnimationAngle:
+    - FlowVector: {x: 1, y: 0}
+      Angle: 180
+      fillMethod: 0
+      fillOrigin: 1
+    - FlowVector: {x: -1, y: 0}
+      Angle: 180
+      fillMethod: 0
+      fillOrigin: 0
+    - FlowVector: {x: 0, y: 1}
+      Angle: 270
+      fillMethod: 0
+      fillOrigin: 1
+    - FlowVector: {x: 0, y: -1}
+      Angle: 270
+      fillMethod: 0
+      fillOrigin: 0
+  StartingPieceFlowFillImages:
+  - Angle: 0
+    StartingPieceSprite: {fileID: 21300000, guid: 850f9854039c2c143885309faa33c178, type: 3}
+  - Angle: 90
+    StartingPieceSprite: {fileID: 21300000, guid: 4a748e252858e0d4e80c0539d9c88e34, type: 3}
+  - Angle: 180
+    StartingPieceSprite: {fileID: 21300000, guid: 5665921147ea8aa468f7c21f164d4e3a, type: 3}
+  - Angle: 270
+    StartingPieceSprite: {fileID: 21300000, guid: 6114f57321c273f4085b35a05b6280de, type: 3}
+  StartingPieceVerticalSafeAreaVectors:
+  - {x: 0, y: 1}
+  - {x: 0, y: -1}
+  - {x: -1, y: 1}
+  - {x: -1, y: -1}
+  - {x: -1, y: 0}
+  StartingPieceHorizontalSafeAreaVectors:
+  - {x: 1, y: 0}
+  - {x: -1, y: 0}
+  - {x: 0, y: 1}
+  - {x: -1, y: 1}
+  - {x: 1, y: 1}
+  BrokenPieceVectors:
+    SurroundingVectors:
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 0, y: -1}
+    - {x: -1, y: 0}
+  PiecePercaentages:
+    LTYPEPIECE_1: 5
+    LTYPEPIECE_2: 5
+    STRAIGHTTYPEPIECE: 2
+    CROSSTYPEPIECE: 1
+    BOMBTYPEPIECE: 1
+    WARNING: 'THE PIECE POOL IS OF 14 PIECES,THUS THE TOTAL OF PIECES YOU ENTER SHOULD
+      EQUAL TO 14 FOR EG: LTYPE1: 4, LTYP2:4, STRAIGHTTYPE: 2, CROSSTYPE: 2, BOMBTYPE:
+      2'
